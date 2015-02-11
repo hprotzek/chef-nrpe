@@ -26,7 +26,7 @@
 #
 
 # install the nrpe daemon and plugins using the appropriate recipe(s)
-include_recipe "nrpe::_#{node['nrpe']['install_method']}_install"
+include_recipe "nrpe_simple::_#{node['nrpe']['install_method']}_install"
 
 # determine hosts that NRPE will allow monitoring from. Start with localhost
 mon_host = ['127.0.0.1']
