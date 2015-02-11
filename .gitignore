@@ -28,6 +28,7 @@ _Store
 _yardoc
 doc/
 .idea
+*.iml
 .ruby-version
 
 #chef stuff
